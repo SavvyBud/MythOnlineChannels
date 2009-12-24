@@ -1,0 +1,17 @@
+About
+-----
+This plugin allows the mythtv to go to a blog site that I maintain with list of
+streaming URLS and pull out these URLs to construct a channel list for 
+online streaming from the web.
+
+Pre-requisite
+-------------
+MythTV installation
+
+Installation Instruction
+------------------------
+
+Crontab settings
+----------------
+00 05 * * * /home/mythtv/bin/online_movies.sh
+
